@@ -22,3 +22,10 @@ There are two websockets server. One for *video stream* and *Object Detection* *
 $python3 Jetbot.py
 $pyhton3 JetbotConnector.py
 ```
+### Snap<em>!</em>
+
+Open  [`snap/JetbotSnap.Version_1.xml`](snap/JetbotSnap.Version_1.xml) with Snap<em>!</em>
+
+Write down your Nvidia Jetson ip adress as input for `connect block` **< ws://ip_address:4040 >**.
+  ![connect_block](/assests/Snap!/connect_block.png)
+> **note**: You can use `ifconfig` command in Nvidia Jetson to obtain ip address. <br/>
